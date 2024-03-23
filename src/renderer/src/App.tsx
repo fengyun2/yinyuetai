@@ -1,14 +1,16 @@
 // import Versions from './components/Versions'
 // import electronLogo from './assets/electron.svg'
 // import Chat from './components/Chat'
-import MusicPlayer from './components/MusicPlayer'
+// import MusicPlayer from './components/MusicPlayer'
+import AMusicPlayer from './components/AMusicplayer'
 
 function App(): JSX.Element {
   // const ipcHandle = (): void => window.electron.ipcRenderer.send('ping')
 
   return (
     <>
-      <MusicPlayer />
+      <AMusicPlayer />
+      {/* <MusicPlayer /> */}
       {/* <Chat /> */}
       {/* <img alt="logo" className="logo" src={electronLogo} />
       <div className="creator">Powered by electron-vite</div>
